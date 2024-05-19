@@ -7,6 +7,8 @@ class Settings:
         self.gravity = 0.4
         self.flap_strenght = -10
         #pipes settings
-        self.pipe_gap = 150
-        self.pipe_frequency = 1500 #milliseconds
+        self.pipe_gap = 50
+        self.pipe_frequency = 2300 #milliseconds
         self.pipe_speed = 5
+        #background settings
+        self.bg_speed = 3
