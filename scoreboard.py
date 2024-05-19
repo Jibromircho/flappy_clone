@@ -10,12 +10,12 @@ class Scoreboard:
         self.score = 0
 
     def add_score(self):
-        self.score += 1
+        self.score += 0.5
 
     def update(self):
         pass
 
 
     def draw(self, screen):
-        score_text = self.font.render(f"Score: {self.score}",True,(255, 255, 255))
+        score_text = self.font.render(f"Score: {int(self.score)}",True,(255, 255, 255))
         screen.blit(score_text, (10, 10))
