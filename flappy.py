@@ -93,7 +93,7 @@ class Flappy:
     def _player_lost(self):
         #end game if player hits pipe or falls down
         self.game_state = Flappy.game_over
-        #self.pipe_group.empty()
+        self.pipe_group.empty()
 
     def _game_paused(self):
         font = pygame.font.SysFont(None, 48)
